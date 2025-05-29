@@ -12,12 +12,14 @@
   },
   "license": "ISC",
   "author": "Shivam Chaudhary",
-  "type": "commonjs",
+  "type": "module",
   "main": "playground.js",
   "scripts": {
+    "start": "node playground.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "openai": "^4.103.0"
   }
 }
